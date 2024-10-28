@@ -1,3 +1,3 @@
-export * from './portfolioSlice';
-export * from './watchlistSlice';
+export * from './usePortfolio';
+export * from './useWatchlist';
 export {};

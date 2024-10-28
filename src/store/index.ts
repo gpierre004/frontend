@@ -3,6 +3,7 @@ import portfolioReducer from './slices/portfolioSlice';
 import watchlistReducer from './slices/watchlistSlice';
 import technicalReducer from './slices/technicalSlice';
 import authReducer from './slices/authSlice';
+import settingsReducer from './slices/settingsSlice';
 
 export const store = configureStore({
   reducer: {
@@ -10,6 +11,7 @@ export const store = configureStore({
     watchlist: watchlistReducer,
     technical: technicalReducer,
     auth: authReducer,
+    settings: settingsReducer,
   },
   middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware({
